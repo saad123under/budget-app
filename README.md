@@ -46,7 +46,7 @@ Budget data is saved locally on the device using AsyncStorage. This app does not
 
 ## Install the Android APK
 
-Open [the latest GitHub release](https://github.com/saad123under/budget-app/releases/latest) on your Android phone and download `budge-1.0.1.apk` from Assets. Open the downloaded file to install Budge. This standalone build does not require Expo Go or a running development server. Because this repository is private, sign in to a GitHub account with access before downloading.
+Open [the latest GitHub release](https://github.com/saad123under/budget-app/releases/latest) on your Android phone and download `budge-1.0.1.apk` from Assets. Open the downloaded file to install Budge. This standalone build does not require Expo Go or a running development server. The APK is public and can be downloaded without a GitHub account.
 
 ## Build an Android APK
 
