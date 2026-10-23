@@ -39,6 +39,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "owner": "yolosaads-team",
+    "extra": {
+      "eas": {
+        "projectId": "c74f7f64-2c64-4021-b353-837b4b36d4e4"
+      }
     }
   }
 }
+
