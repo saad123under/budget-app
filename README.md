@@ -43,3 +43,19 @@ Budget data is saved locally on the device using AsyncStorage. This app does not
 - `src/constants/`: colors and currency definitions
 - `src/utils/`: budget helpers
 - `assets/`: app images and icons
+
+## Install the Android APK
+
+Open [the latest GitHub release](https://github.com/saad123under/budget-app/releases/latest) on your Android phone and download `budget-app-1.0.0.apk` from Assets. Open the downloaded file to install Budget. This standalone build does not require Expo Go or a running development server. Because this repository is private, sign in to a GitHub account with access before downloading.
+
+## Build an Android APK
+
+The `preview` EAS profile produces an installable APK:
+
+```sh
+npx eas-cli@latest login
+npx eas-cli@latest build --platform android --profile preview
+```
+
+The project is linked to its Expo project in `app.json`. Builds require access to that Expo account. Signing credentials are managed separately through Expo and must never be committed to the repository. Reuse the same signing key for future updates.
+
